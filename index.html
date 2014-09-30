@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app="directiveWorkshop">
+<head>
+	<title>My Directives</title>
+</head>
+<body ng-controller="mainCtrl">
+
+<div>
+<h2>pending</h2>
+	<form>
+		<input ng-model="query" placeholder="Search"/>
+		<button ng-click="getData()">Submit</button> 
+	</form>
+</div>
+
+<div>
+<h2>Notifications</h2>
+	<form>
+		<input ng-model="title" placeholder="title"/>
+		<input ng-model="body" placeholder="body"/>
+		<input ng-model="icon" placeholder="iconUrl"/>
+		<button ng-click="">Submit</button> 
+	</form>
+</div>
+
+<scripts>
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+	<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+	<script type="text/javascript" src="mainCtrl.js"></script>
+	<script type="text/javascript" src="mainService.js"></script>
+	<script type="text/javascript" src="myDirectives.js"></script>
+</scripts>
+
+</body>
+</html>

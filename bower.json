@@ -1,0 +1,21 @@
+{
+  "name": "Directives-Workshop",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jakeoverall/Directives-Workshop",
+  "authors": [
+    "Jake Overall <joverall22@gmail.com>"
+  ],
+  "description": "Build your own angular directives",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.25",
+    "jquery": "~2.1.1"
+  }
+}
